@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-home_dir=/scratch/xuxiaoj3/code2ve
+home_dir=/scratch/xuxiaoj3/code2vec
 
 dataset_name=java14m
 data_dir=${home_dir}/data/${dataset_name}
