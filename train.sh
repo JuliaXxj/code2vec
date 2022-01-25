@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+#SBATCH -t=40:00:00
+#SBATCH --account=def-six
+#SBATCH --gres=gpu:a100:1
+#SBATCH --mem=16G
+#SBATCH --job-name=firsttrain
 ###########################################################
 # Change the following values to train a new model.
 # type: the name of the new model, only affects the saved file name.
