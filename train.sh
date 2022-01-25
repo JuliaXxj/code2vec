@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#SBATCH -t=40:00:00
+#SBATCH --time=40:00:00
 #SBATCH --account=def-six
 #SBATCH --gres=gpu:a100:1
 #SBATCH --mem=16G
